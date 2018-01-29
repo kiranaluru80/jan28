@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ConEd.PAP.Views.HelpPage">
+	<StackLayout Spacing ="20" HorizontalOptions ="FillAndExpand" VerticalOptions ="CenterAndExpand" Padding ="15,20,15,10" Orientation ="Vertical">
+        <StackLayout Orientation ="Vertical" HorizontalOptions ="FillAndExpand" Spacing ="10">
+           <Image HorizontalOptions = "Center" Source ="docQuestion.png"/> 
+           <Label Text ="For questions regarding procedure content, contact document SME" FontSize ="13" FontAttributes ="Bold"/>
+        </StackLayout>
+
+        <StackLayout Orientation ="Vertical" HorizontalOptions ="FillAndExpand" Spacing ="10">
+           <Image HorizontalOptions = "Center" Source ="wrenchIcon.png"/> 
+           <Label Text ="For application support and issues, contact help desk : 212-780-7900" FontSize ="13" FontAttributes ="Bold"/>
+        </StackLayout>
+        <StackLayout HorizontalOptions ="FillAndExpand" Padding ="3">
+            <Button x:Name="closeref" Text = "CLOSE" FontAttributes ="Bold" TextColor ="White" HorizontalOptions ="Fill" BackgroundColor ="#43AEE7" BorderRadius = "15"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
